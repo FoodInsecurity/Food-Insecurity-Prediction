@@ -1,5 +1,4 @@
 # Food-Insecurity-Prediction
-Predicting acute food insecurity and humanitarian crises using machine learning models trained on IPC (Integrated Food Security Phase Classification) data
 
 ## Project Overview
 This project develops machine learning models to predict IPC (Integrated Food Security Phase Classification) severity levels (1–5) using multi-dimensional data, including socio-economic indicators, conflict data, agricultural metrics, and climate factors.
