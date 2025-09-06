@@ -8,19 +8,19 @@ This project develops machine learning models to predict IPC (Integrated Food Se
 
 ipc_phase: Severity classification (1-5)
 
-1: Minimal food insecurity
-2: Stressed
-3: Crisis (acute food insecurity)
-4: Emergency (humanitarian emergency)
-5: Famine (humanitarian catastrophe)
+- 1: Minimal food insecurity
+- 2: Stressed
+- 3: Crisis (acute food insecurity)
+- 4: Emergency (humanitarian emergency)
+- 5: Famine (humanitarian catastrophe)
 
 
 # Key Identifiers
 
-iso3: Country ISO3 code
-country: Country name
-year: Assessment year
-phase_type: Assessment type/period
+- iso3: Country ISO3 code
+- country: Country name
+- year: Assessment year
+- phase_type: Assessment type/period
 
 
 ## Team Members & Section Assignments
