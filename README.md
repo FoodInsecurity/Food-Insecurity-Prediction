@@ -18,6 +18,37 @@ This project develops machine learning models to predict IPC (Integrated Food Se
 - matplotlib >= 3.6.0
 - seaborn >= 0.12.0
 
+# Dataset
+
+## Overview
+This project utilizes a **unique, multi-source real-world dataset** on food insecurity, combining several authoritative international datasets to build a comprehensive predictive model of food insecurity severity.
+
+## Data Sources
+
+| Source | Provider | Variables |
+|--------|----------|-----------|
+| **IPC (Integrated Food Security Phase Classification)** | Humanitarian Data Exchange (HDX) | Target variable (IPC Phases 1–5) |
+| **World Bank Development Indicators** | World Bank | Socio-economic variables (population, GDP, poverty rates) |
+| **FAOSTAT** | Food and Agriculture Organization of the UN | Agricultural production (maize, rice, wheat, sorghum, millet yields & production), climate indicators (temperature change, variability) |
+| **UCDP** | Uppsala Conflict Data Program | Conflict-related fatalities (battle-related deaths, one-sided violence against civilians) |
+
+## Dataset Characteristics
+
+- Temporal Coverage**: 20+ years (2003–2024)
+- Geographic Scope**: Multiple countries, focusing on food-insecure regions with IPC assessments
+- Dataset Size**: ~927–1,200 country-year observations
+- Features**: Dozens of explanatory variables per observation
+- Adequacy**: Dataset size is sufficient for robust machine learning experimentation
+
+## Data Integration
+The dataset represents a careful integration of multiple authoritative sources, providing a comprehensive view of factors contributing to food insecurity across different dimensions:
+- **Food Security Assessment** (IPC classifications)
+- **Economic Indicators** (World Bank metrics)
+- **Agricultural Production** (FAO statistics)
+- **Conflict Data** (UCDP records)
+
+This multi-dimensional approach enables the development of nuanced predictive models that account for the complex interplay of factors affecting food security globally.
+
 ## Target Variable
 
 ipc_phase: Severity classification (1-5)
