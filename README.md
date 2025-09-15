@@ -48,6 +48,36 @@ The dataset represents a careful integration of multiple authoritative sources, 
 - Conflict Data** (UCDP records)
 
 
+## Data Dictionary: Final IPC-All Clean Dataset
+
+This document describes the variables included in the cleaned dataset used for food insecurity prediction.
+
+| Column | Description |
+|--------|-------------|
+| `iso3` | Country 3-letter ISO code |
+| `country` | Country name |
+| `year` | Year of observation |
+| `phase_type` | IPC analysis type: current, proj1 (first projection), proj2 (second projection) |
+| `ipc_phase` | IPC Phase classification (1=Minimal, 2=Stressed, 3=Crisis, 4=Emergency, 5=Famine) |
+| `population_total` | Total population (World Bank, SP.POP.TOTL) |
+| `gdp_current_usd` | Gross Domestic Product in current US dollars (World Bank, NY.GDP.MKTP.CD) |
+| `poverty_rate` | Poverty headcount ratio at $2.15/day (% of population, World Bank, SI.POV.DDAY) |
+| `brd_deaths` | Battle-related deaths (UCDP Battle-related deaths dataset) |
+| `one_sided_deaths` | One-sided violence deaths (UCDP One-sided violence dataset) |
+| `Crop: Maize (corn) - Production` | Maize (corn) total production (tonnes) |
+| `Crop: Maize (corn) - Yield` | Maize (corn) yield (hg/ha) |
+| `Crop: Rice - Production` | Rice total production (tonnes) |
+| `Crop: Rice - Yield` | Rice yield (hg/ha) |
+| `Crop: Wheat - Production` | Wheat total production (tonnes) |
+| `Crop: Wheat - Yield` | Wheat yield (hg/ha) |
+| `Crop: Millet - Production` | Millet total production (tonnes) |
+| `Crop: Millet - Yield` | Millet yield (hg/ha) |
+| `Crop: Sorghum - Production` | Sorghum total production (tonnes) |
+| `Crop: Sorghum - Yield` | Sorghum yield (hg/ha) |
+| `Climate: Standard Deviation` | Climate indicator: Standard Deviation |
+| `Climate: Temperature change` | Climate indicator: Temperature change |
+
+
 ## Target Variable
 
 ipc_phase: Severity classification (1-5)
@@ -163,3 +193,17 @@ Analysis Questions:
  -Risk assessment: IPC coverage limitations, data missingness, potential bias
  -Practical implications: Real-world application feasibility
  -Future improvements: Next steps and recommendations
+
+
+## How to run the project
+
+- Click on this Google Colab link: [https://colab.research.google.com/drive/1I0MBIFvNsYu-vMGSQAsUVIOn2ZNOGyqI]
+- Sign in to your Google account if prompted
+- If the dataset isn't automatically loaded, upload the CSV file:
+- Click on the folder icon in the left sidebar
+- Click "Upload" and select your CSV dataset file
+- Click "Runtime" → "Run all" to execute all cells
+Or run cells individually by clicking the play button on each cell
+
+
+## Authored By Immaculate,Conrad,Mable,Nicholas,Denis,Elizabeth,Charles
